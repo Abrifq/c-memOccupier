@@ -19,7 +19,7 @@ Just start without arguments. Occupies as many times as you want.
 ./main
 ```
 
-or start with an argument for size to occupy &ndash;like 512M&ndash; in bytes &ndash;in bytes. Occupies one time and then exits.
+or start with an argument for size to occupy &ndash;like 512M&ndash; in bytes. Occupies one time and then exits.
 
 ```bash
 ./main $(( 512 * (1024 ** 2) ))
